@@ -9,6 +9,8 @@ import { AddExpenseModal } from './components/AddExpenseModal';
 import { SbpModal } from './components/SbpModal';
 import { ShareModal } from './components/ShareModal';
 import { EventModal } from './components/EventModal';
+import { IosInstallModal } from './components/IosInstallModal';
+import { IosInstallBanner } from './components/IosInstallBanner';
 
 import { PartyEvent, Member, Expense, Currency, SettlementTransaction } from './types';
 import { calculateBalances, minimizeDebts } from './core/debtMinimizer';
@@ -38,6 +40,7 @@ export const App: React.FC = () => {
   const [isAddExpenseOpen, setIsAddExpenseOpen] = useState(false);
   const [isShareOpen, setIsShareOpen] = useState(false);
   const [isEventsOpen, setIsEventsOpen] = useState(false);
+  const [isIosInstallOpen, setIsIosInstallOpen] = useState(false);
   const [activeSbpTx, setActiveSbpTx] = useState<SettlementTransaction | null>(null);
 
   // Initialize
@@ -243,6 +246,10 @@ export const App: React.FC = () => {
           sounds.playTap();
           setIsEventsOpen(true);
         }}
+        onOpenIosInstall={() => {
+          sounds.playTap();
+          setIsIosInstallOpen(true);
+        }}
       />
 
       <EventHero
@@ -394,6 +401,15 @@ export const App: React.FC = () => {
           onClose={() => setIsEventsOpen(false)}
         />
       )}
+
+      {/* iOS Smart Floating Banner */}
+      <IosInstallBanner onOpenInstallModal={() => setIsIosInstallOpen(true)} />
+
+      {/* iOS Dedicated Install Modal */}
+      <IosInstallModal
+        isOpen={isIosInstallOpen}
+        onClose={() => setIsIosInstallOpen(false)}
+      />
     </div>
   );
 };
