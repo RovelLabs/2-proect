@@ -1,0 +1,45 @@
+{
+  "name": "skladno",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Скидывайтесь без неловкости и математики. Local-first сплиттер расходов с поддержкой СБП для тусовок и компаний друзей.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "keywords": [
+    "splitwise-alternative",
+    "expense-splitter",
+    "sbp",
+    "local-first",
+    "telegram-share",
+    "pwa",
+    "youth-cis",
+    "open-source"
+  ],
+  "author": "RovelLabs & Skladno Contributors",
+  "license": "MIT",
+  "dependencies": {
+    "canvas-confetti": "^1.9.4",
+    "lucide-react": "^1.16.0",
+    "lz-string": "^1.5.0",
+    "qrcode": "^1.5.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/canvas-confetti": "^1.9.0",
+    "@types/node": "^22.10.2",
+    "@types/qrcode": "^1.5.5",
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "@vitejs/plugin-react": "^4.3.4",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.3",
+    "vitest": "^2.1.8"
+  }
+}
