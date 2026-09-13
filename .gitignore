@@ -40,9 +40,22 @@ pnpm-debug.log*
 *.tsbuildinfo
 .vite/
 
-# Archives & Temp
-*.zip
-*.tar.gz
-*.rar
+# Staging and temp
+dist-releases/
 scratch/
 tmp/
+
+# Android build outputs
+.gradle/
+android/.gradle/
+android/app/build/
+android/build/
+android/captures/
+android/.idea/
+
+# Archives
+*.tar.gz
+*.rar
+*.zip
+!releases/*.zip
+

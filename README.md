@@ -30,7 +30,19 @@
   <img src="docs/screenshots/modal_sbp.png" width="30%" alt="Оплата по СБП и QR" />
   &nbsp;&nbsp;&nbsp;&nbsp;
   <img src="docs/screenshots/modal_share.png" width="30%" alt="Шеринг в Telegram" />
-</div>
+---
+
+## 📦 Готовые релизы (Windows, macOS, Android)
+
+Вы можете скачать и запустить «Складно» на любой платформе:
+
+| Платформа | Формат релиза | Ссылка на скачивание | Инструкция |
+|---|---|---|---|
+| **💻 Windows** | Portable Zip (x64) | [**`Skladno-v0.1.0-windows-x64.zip`**](releases/Skladno-v0.1.0-windows-x64.zip) | Распаковать и запустить `Skladno.vbs` |
+| **🍎 macOS** | Standalone .app Bundle | [**`Skladno-v0.1.0-macos-universal.zip`**](releases/Skladno-v0.1.0-macos-universal.zip) | Перетащить `Skladno.app` в «Программы» |
+| **📱 Android** | APK & Native Project | [**`Skladno-v0.1.0-android-project.zip`**](releases/Skladno-v0.1.0-android-project.zip) | GitHub Releases APK или Android Studio |
+
+> 📖 Подробное руководство по установке и сборке: [**docs/releases.md**](docs/releases.md)
 
 ---
 

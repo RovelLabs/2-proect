@@ -1,0 +1,3 @@
+97d9214b2f635e0ac65f40f3055e491f74a7a058081d264620211242263ea6a2  Skladno-v0.1.0-windows-x64.zip (0.13 MB)
+293a67a1e89578720707a56aee47d970ccf2900c030bc7f05cde234e4bf963fe  Skladno-v0.1.0-macos-universal.zip (0.13 MB)
+28862cb553150bdb79f63415e6a151cf23205ba12cb384e1ee8b94591ec6237c  Skladno-v0.1.0-android-project.zip (0.32 MB)
