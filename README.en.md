@@ -5,6 +5,7 @@
   <p>An ultra-fast, local-first group expense splitter with algorithmic debt graph minimization, SBP (Fast Payments System) deep links, and zero-login Telegram share cards.</p>
 
   <p>
+    <a href="https://rovel-labs.fourtopaph.workers.dev/"><img src="https://img.shields.io/badge/Lab-Rovel%20Labs-6366F1?style=flat-square&logo=cloudflare&logoColor=white" alt="Rovel Labs" /></a>
     <a href="https://github.com/RovelLabs/2-proect/actions"><img src="https://img.shields.io/badge/CI-Passing-10B981?style=flat-square&logo=githubactions&logoColor=white" alt="CI Status" /></a>
     <a href="https://github.com/RovelLabs/2-proect/releases/latest"><img src="https://img.shields.io/badge/Release-v0.1.0-6366F1?style=flat-square&logo=github&logoColor=white" alt="Latest Release" /></a>
     <a href="https://github.com/RovelLabs/2-proect/releases/download/v0.1.0/Skladno-v0.1.0-ios.mobileconfig"><img src="https://img.shields.io/badge/iPhone%20%2F%20iOS-WebClip%20%26%20PWA-000000?style=flat-square&logo=apple&logoColor=white" alt="iOS WebClip" /></a>
@@ -14,6 +15,7 @@
     <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-38BDF8?style=flat-square" alt="License" /></a>
     <a href="README.md"><img src="https://img.shields.io/badge/Lang-Русский-10B981?style=flat-square" alt="Russian README" /></a>
   </p>
+  <p>🌐 Official Laboratory Website: <a href="https://rovel-labs.fourtopaph.workers.dev/"><strong>rovel-labs.fourtopaph.workers.dev</strong></a></p>
 </div>
 
 ---
@@ -96,7 +98,7 @@ npm run build
 ---
 
 ## 🐳 Docker
-
+ 
 ```bash
 docker build -t skladno:latest .
 docker run -d -p 8080:80 skladno:latest
@@ -104,7 +106,22 @@ docker run -d -p 8080:80 skladno:latest
 
 ---
 
+## 👥 Developers & Rovel Labs Team
+
+Skladno is designed, developed, and maintained by [**Rovel Labs**](https://rovel-labs.fourtopaph.workers.dev/) — creators of privacy-first, developer-centric open-source utilities and tools (including [Portloom](https://github.com/RovelLabs/portloom), Vanta, Rain, and Skladno).
+
+### Team & Project Roles:
+- 🏛️ **Product Lead & Architecture:** [**Rovel Labs**](https://rovel-labs.fourtopaph.workers.dev/) — Zero-knowledge local-first architecture, debt graph minimization, cross-platform releases.
+- ⚡ **Frontend & Core Engine:** Skladno Core Team — $O(N \log N)$ transaction balancer, LZ-String state compression, SBP (Fast Payments System) deep links & QR generator.
+- 🎨 **UI/UX & Brand Design:** Skladno Design Team — Neo-brutalism aesthetics, mobile-first responsive layout (360px to 4K), dark/light theme, and Web Audio sound synthesizer.
+- 🛡️ **DevOps & Release Engineering:** Rovel Labs Infrastructure — GitHub Actions automation, native Android APK (Java 21/SDK 34), macOS DMG (`hdiutil`), iOS WebClip (`.mobileconfig`), and Windows Portable.
+
+> 🌐 **Rovel Labs Official Website:** [**https://rovel-labs.fourtopaph.workers.dev/**](https://rovel-labs.fourtopaph.workers.dev/)  
+> Discover more open-source projects, freedom philosophy, and developer utilities.
+
+---
+
 ## 📄 License
 
 Distributed under the [MIT License](LICENSE).  
-Copyright (c) 2026 RovelLabs & Skladno Contributors.
+Copyright (c) 2026 [Rovel Labs](https://rovel-labs.fourtopaph.workers.dev/) & Skladno Contributors.

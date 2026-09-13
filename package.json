@@ -21,7 +21,8 @@
     "youth-cis",
     "open-source"
   ],
-  "author": "RovelLabs & Skladno Contributors",
+  "author": "Rovel Labs (https://rovel-labs.fourtopaph.workers.dev/)",
+  "homepage": "https://rovel-labs.fourtopaph.workers.dev/",
   "license": "MIT",
   "dependencies": {
     "canvas-confetti": "^1.9.4",

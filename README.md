@@ -5,6 +5,7 @@
   <p>Ультрабыстрый local-first сплиттер совместных расходов с алгоритмической минимизацией долгов, генерацией СБП-ссылок и карточек для Telegram без регистрации.</p>
 
   <p>
+    <a href="https://rovel-labs.fourtopaph.workers.dev/"><img src="https://img.shields.io/badge/Lab-Rovel%20Labs-6366F1?style=flat-square&logo=cloudflare&logoColor=white" alt="Rovel Labs" /></a>
     <a href="https://github.com/RovelLabs/2-proect/actions"><img src="https://img.shields.io/badge/CI-Passing-10B981?style=flat-square&logo=githubactions&logoColor=white" alt="CI Status" /></a>
     <a href="https://github.com/RovelLabs/2-proect/releases/latest"><img src="https://img.shields.io/badge/Release-v0.1.0-6366F1?style=flat-square&logo=github&logoColor=white" alt="Latest Release" /></a>
     <a href="https://github.com/RovelLabs/2-proect/releases/download/v0.1.0/Skladno-v0.1.0-ios.mobileconfig"><img src="https://img.shields.io/badge/iPhone%20%2F%20iOS-WebClip%20%26%20PWA-000000?style=flat-square&logo=apple&logoColor=white" alt="iOS WebClip" /></a>
@@ -14,6 +15,7 @@
     <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-38BDF8?style=flat-square" alt="License" /></a>
     <a href="README.en.md"><img src="https://img.shields.io/badge/Lang-English-6366F1?style=flat-square" alt="English README" /></a>
   </p>
+  <p>🌐 Официальный сайт лаборатории: <a href="https://rovel-labs.fourtopaph.workers.dev/"><strong>rovel-labs.fourtopaph.workers.dev</strong></a></p>
 </div>
 
 ---
@@ -194,6 +196,21 @@ docker compose up -d
 
 ---
 
+## 👥 Разработчики и команда Rovel Labs
+
+Продукт полностью спроектирован, разработан и поддерживается независимой открытой лабораторией [**Rovel Labs**](https://rovel-labs.fourtopaph.workers.dev/) — создателями открытых системных инструментов и утилит со свободной экосистемой (включая [Portloom](https://github.com/RovelLabs/portloom), Vanta, Rain и Skladno).
+
+### Авторы и ключевые роли в создании «Складно»:
+- 🏛️ **Product Lead & Главный архитектор:** [**Rovel Labs**](https://rovel-labs.fourtopaph.workers.dev/) — концепция zero-knowledge & local-first, графовая модель расчётов, мультиплатформенные релизы.
+- ⚡ **Frontend & Алгоритмическое ядро:** Skladno Core Team — реализация алгоритма минимизации транзакций $O(N \log N)$, сжатие состояний LZ-String, интеграция стандартов ГОСТ/НСПК СБП.
+- 🎨 **UI/UX & Бренд-дизайн:** Skladno Design Team — эстетика нео-брутализма, оптимизация под молодёжную аудиторию РФ и СНГ, плавная адаптивность от экранов 360px до 4K, встроенный синтезатор звуков.
+- 🛡️ **DevOps & Релиз-инженерия:** Rovel Labs Infrastructure — автоматизированный CI/CD в GitHub Actions, сборка нативных Android APK (Java 21/SDK 34), образов macOS DMG (`hdiutil`), профилей iOS WebClip (`.mobileconfig`) и Windows Portable.
+
+> 🌐 **Официальный сайт Rovel Labs:** [**https://rovel-labs.fourtopaph.workers.dev/**](https://rovel-labs.fourtopaph.workers.dev/)  
+> Узнайте больше о других open-source проектах лаборатории, идеях открытого интернета и свободных инструментах.
+
+---
+
 ## 🤝 Контрибьюция
 
 Мы приветствуем идеи, исправления багов и новые банки СНГ!  
@@ -204,4 +221,4 @@ docker compose up -d
 ## 📄 Лицензия
 
 Проект распространяется под открытой лицензией [MIT](LICENSE).  
-Copyright (c) 2026 RovelLabs & Skladno Contributors.
+Copyright (c) 2026 [Rovel Labs](https://rovel-labs.fourtopaph.workers.dev/) & Skladno Contributors.

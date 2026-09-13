@@ -253,6 +253,15 @@ export const EventModal: React.FC<EventModalProps> = ({
                 />
               </label>
             </div>
+
+            <div style={{ marginTop: 20, paddingTop: 14, borderTop: '1px solid var(--border)', fontSize: '0.8rem', color: 'var(--text-secondary)', textAlign: 'center', lineHeight: 1.5 }}>
+              <div>
+                Проект создан и развивается в <a href="https://rovel-labs.fourtopaph.workers.dev/" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--primary)', fontWeight: 600, textDecoration: 'none' }}>Rovel Labs</a>
+              </div>
+              <div style={{ opacity: 0.75, fontSize: '0.74rem', marginTop: 2 }}>
+                Официальный сайт: <a href="https://rovel-labs.fourtopaph.workers.dev/" target="_blank" rel="noopener noreferrer" style={{ color: 'inherit', textDecoration: 'underline' }}>rovel-labs.fourtopaph.workers.dev</a>
+              </div>
+            </div>
           </div>
         )}
 

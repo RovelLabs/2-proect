@@ -345,6 +345,19 @@ export const App: React.FC = () => {
         )}
       </main>
 
+      {/* Footer */}
+      <footer className="app-footer">
+        <div className="footer-content">
+          <span>Сделано в <a href="https://rovel-labs.fourtopaph.workers.dev/" target="_blank" rel="noopener noreferrer"><strong>Rovel Labs</strong></a></span>
+          <span className="footer-separator">•</span>
+          <span>Open-Source & Local-First</span>
+          <span className="footer-separator">•</span>
+          <a href="https://rovel-labs.fourtopaph.workers.dev/" target="_blank" rel="noopener noreferrer">Лаборатория Rovel Labs</a>
+          <span className="footer-separator">•</span>
+          <a href="https://github.com/RovelLabs/2-proect" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </div>
+      </footer>
+
       {/* Mobile Floating Action Button */}
       <div className="fab-container">
         <button

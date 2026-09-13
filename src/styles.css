@@ -915,3 +915,39 @@ body {
   align-items: center;
   gap: 6px;
 }
+
+/* App Footer */
+.app-footer {
+  margin-top: 3rem;
+  padding: 1.5rem 1rem 5.5rem 1rem;
+  text-align: center;
+  border-top: 1px solid var(--border);
+  color: var(--text-secondary);
+  font-size: 0.82rem;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.footer-content a {
+  color: var(--primary);
+  text-decoration: none;
+  font-weight: 500;
+  transition: opacity 0.2s;
+}
+
+.footer-content a:hover {
+  text-decoration: underline;
+  opacity: 0.9;
+}
+
+.footer-separator {
+  opacity: 0.4;
+  user-select: none;
+}
+
