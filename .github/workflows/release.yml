@@ -84,6 +84,7 @@ jobs:
 
   publish-release:
     needs: [build-android, build-desktop]
+    if: always() && (needs.build-desktop.result == 'success' || needs.build-android.result == 'success')
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -91,12 +92,14 @@ jobs:
 
       - name: Download Android APK
         uses: actions/download-artifact@v4
+        continue-on-error: true
         with:
           name: android-apk
           path: release-assets/
 
       - name: Download Desktop Packages
         uses: actions/download-artifact@v4
+        continue-on-error: true
         with:
           name: desktop-packages
           path: release-assets/
