@@ -38,11 +38,14 @@
 
 | Платформа | Формат релиза | Ссылка на скачивание | Инструкция |
 |---|---|---|---|
-| **💻 Windows** | Portable Zip (x64) | [**`Skladno-v0.1.0-windows-x64.zip`**](releases/Skladno-v0.1.0-windows-x64.zip) | Распаковать и запустить `Skladno.vbs` |
-| **🍎 macOS** | Standalone .app Bundle | [**`Skladno-v0.1.0-macos-universal.zip`**](releases/Skladno-v0.1.0-macos-universal.zip) | Перетащить `Skladno.app` в «Программы» |
-| **📱 Android** | APK & Native Project | [**`Skladno-v0.1.0-android-project.zip`**](releases/Skladno-v0.1.0-android-project.zip) | GitHub Releases APK или Android Studio |
+| **📱 Android** | **Native APK (3.8 MB)** | [**`Skladno-v0.1.0-android.apk`**](https://github.com/RovelLabs/2-proect/releases/download/v0.1.0/Skladno-v0.1.0-android.apk) | Скачать на смартфон и установить |
+| **💻 Windows** | Portable Zip (x64) | [**`Skladno-v0.1.0-windows-x64.zip`**](https://github.com/RovelLabs/2-proect/releases/download/v0.1.0/Skladno-v0.1.0-windows-x64.zip) | Распаковать и запустить `Skladno.vbs` |
+| **🍎 macOS** | Standalone .app Bundle | [**`Skladno-v0.1.0-macos-universal.zip`**](https://github.com/RovelLabs/2-proect/releases/download/v0.1.0/Skladno-v0.1.0-macos-universal.zip) | Перетащить `Skladno.app` в «Программы» |
+| **🤖 Android Dev** | Исходный проект Capacitor | [**`Skladno-v0.1.0-android-project.zip`**](https://github.com/RovelLabs/2-proect/releases/download/v0.1.0/Skladno-v0.1.0-android-project.zip) | Открыть в Android Studio |
 
-> 📖 Подробное руководство по установке и сборке: [**docs/releases.md**](docs/releases.md)
+> 🌐 **Онлайн-версия & PWA**: работает прямо в браузере с полным офлайн-режимом (в меню браузера: *«Добавить на главный экран»*).  
+> 📦 **Все релизы на GitHub**: [**github.com/RovelLabs/2-proect/releases**](https://github.com/RovelLabs/2-proect/releases)  
+> 📖 Подробное руководство по установке: [**docs/releases.md**](docs/releases.md)
 
 ---
 
