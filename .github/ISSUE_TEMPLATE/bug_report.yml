@@ -1,0 +1,32 @@
+name: "🐛 Отчет об ошибке"
+description: Сообщить о баге или некорректной работе «Складно»
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: Спасибо за помощь в улучшении «Складно»!
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: Что произошло?
+      description: Четкое описание ошибки.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Шаги для воспроизведения
+      description: Опишите, как вызвать ошибку.
+      placeholder: |
+        1. Открыть событие '...'
+        2. Добавить трату...
+        3. Нажать...
+    validations:
+      required: true
+  - type: input
+    id: browser
+    attributes:
+      label: Браузер и устройство
+      description: Например, Chrome на Android / Safari на iOS / Desktop Edge
+    validations:
+      required: false
