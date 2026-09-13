@@ -90,7 +90,9 @@ console.log(`Created: ${androidZip}`);
 // 6. Generate SHA256 Checksums
 console.log('\nComputing SHA256 checksums...');
 const releaseFiles = [
+  'Skladno-v0.1.0-android.apk',
   'Skladno-v0.1.0-windows-x64.zip',
+  'Skladno-v0.1.0-macos.dmg',
   'Skladno-v0.1.0-macos-universal.zip',
   'Skladno-v0.1.0-android-project.zip'
 ];

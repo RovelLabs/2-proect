@@ -6,10 +6,11 @@
 
   <p>
     <a href="https://github.com/RovelLabs/2-proect/actions"><img src="https://img.shields.io/badge/CI-Passing-10B981?style=flat-square&logo=githubactions&logoColor=white" alt="CI Status" /></a>
+    <a href="https://github.com/RovelLabs/2-proect/releases/latest"><img src="https://img.shields.io/badge/Release-v0.1.0-6366F1?style=flat-square&logo=github&logoColor=white" alt="Latest Release" /></a>
+    <a href="https://github.com/RovelLabs/2-proect/releases/download/v0.1.0/Skladno-v0.1.0-android.apk"><img src="https://img.shields.io/badge/Android-APK%203.8MB-3DDC84?style=flat-square&logo=android&logoColor=white" alt="Android APK" /></a>
+    <a href="https://github.com/RovelLabs/2-proect/releases/download/v0.1.0/Skladno-v0.1.0-macos.dmg"><img src="https://img.shields.io/badge/macOS-DMG%20%26%20App-000000?style=flat-square&logo=apple&logoColor=white" alt="macOS DMG" /></a>
+    <a href="https://github.com/RovelLabs/2-proect/releases/download/v0.1.0/Skladno-v0.1.0-windows-x64.zip"><img src="https://img.shields.io/badge/Windows-Portable%20x64-0078D4?style=flat-square&logo=windows&logoColor=white" alt="Windows Portable" /></a>
     <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-38BDF8?style=flat-square" alt="License" /></a>
-    <a href="#"><img src="https://img.shields.io/badge/TypeScript-5.7-blue?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" /></a>
-    <a href="#"><img src="https://img.shields.io/badge/Local--First-100%25-A3E635?style=flat-square" alt="Local First" /></a>
-    <a href="#"><img src="https://img.shields.io/badge/Privacy-Zero--Data--Stored-10B981?style=flat-square" alt="Privacy" /></a>
     <a href="README.en.md"><img src="https://img.shields.io/badge/Lang-English-6366F1?style=flat-square" alt="English README" /></a>
   </p>
 </div>
@@ -30,22 +31,25 @@
   <img src="docs/screenshots/modal_sbp.png" width="30%" alt="Оплата по СБП и QR" />
   &nbsp;&nbsp;&nbsp;&nbsp;
   <img src="docs/screenshots/modal_share.png" width="30%" alt="Шеринг в Telegram" />
+</div>
+
 ---
 
-## 📦 Готовые релизы (Windows, macOS, Android)
+## 📦 Мультиплатформенные релизы
 
 Вы можете скачать и запустить «Складно» на любой платформе:
 
-| Платформа | Формат релиза | Ссылка на скачивание | Инструкция |
+| Платформа | Формат | Ссылка на скачивание | Инструкция |
 |---|---|---|---|
-| **📱 Android** | **Native APK (3.8 MB)** | [**`Skladno-v0.1.0-android.apk`**](https://github.com/RovelLabs/2-proect/releases/download/v0.1.0/Skladno-v0.1.0-android.apk) | Скачать на смартфон и установить |
+| **📱 Android** | **Native APK (3.8 MB)** | [**`Skladno-v0.1.0-android.apk`**](https://github.com/RovelLabs/2-proect/releases/download/v0.1.0/Skladno-v0.1.0-android.apk) | Скачать на смартфон и подтвердить установку |
+| **🍎 macOS** | **Apple Disk Image (DMG)** | [**`Skladno-v0.1.0-macos.dmg`**](https://github.com/RovelLabs/2-proect/releases/download/v0.1.0/Skladno-v0.1.0-macos.dmg) | Открыть `.dmg` и перетащить в «Программы» |
+| **🍎 macOS** | Universal ZIP Bundle | [**`Skladno-v0.1.0-macos-universal.zip`**](https://github.com/RovelLabs/2-proect/releases/download/v0.1.0/Skladno-v0.1.0-macos-universal.zip) | Распаковать `Skladno.app` в «Программы» |
 | **💻 Windows** | Portable Zip (x64) | [**`Skladno-v0.1.0-windows-x64.zip`**](https://github.com/RovelLabs/2-proect/releases/download/v0.1.0/Skladno-v0.1.0-windows-x64.zip) | Распаковать и запустить `Skladno.vbs` |
-| **🍎 macOS** | Standalone .app Bundle | [**`Skladno-v0.1.0-macos-universal.zip`**](https://github.com/RovelLabs/2-proect/releases/download/v0.1.0/Skladno-v0.1.0-macos-universal.zip) | Перетащить `Skladno.app` в «Программы» |
-| **🤖 Android Dev** | Исходный проект Capacitor | [**`Skladno-v0.1.0-android-project.zip`**](https://github.com/RovelLabs/2-proect/releases/download/v0.1.0/Skladno-v0.1.0-android-project.zip) | Открыть в Android Studio |
+| **🌐 Онлайн & PWA** | Web Application | [**Открыть в браузере**](https://github.com/RovelLabs/2-proect) | В меню браузера: *«Добавить на главный экран»* |
+| **🤖 Android Dev** | Исходный проект Capacitor | [**`Skladno-v0.1.0-android-project.zip`**](https://github.com/RovelLabs/2-proect/releases/download/v0.1.0/Skladno-v0.1.0-android-project.zip) | Открыть папку в Android Studio |
 
-> 🌐 **Онлайн-версия & PWA**: работает прямо в браузере с полным офлайн-режимом (в меню браузера: *«Добавить на главный экран»*).  
-> 📦 **Все релизы на GitHub**: [**github.com/RovelLabs/2-proect/releases**](https://github.com/RovelLabs/2-proect/releases)  
-> 📖 Подробное руководство по установке: [**docs/releases.md**](docs/releases.md)
+> 📦 **Все файлы релиза на GitHub**: [**github.com/RovelLabs/2-proect/releases/latest**](https://github.com/RovelLabs/2-proect/releases/latest)  
+> 📖 Подробное руководство по установке на каждую ОС: [**docs/releases.md**](docs/releases.md)
 
 ---
 
