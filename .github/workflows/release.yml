@@ -70,7 +70,7 @@ jobs:
       - name: Install dependencies
         run: |
           npm ci
-          npm install --no-save @rollup/rollup-darwin-arm64 @rollup/rollup-darwin-x64
+          npm install --no-save @rollup/rollup-darwin-arm64
 
       - name: Build Web App
         run: npm run build
