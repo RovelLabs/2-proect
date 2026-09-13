@@ -1,5 +1,5 @@
 import React from 'react';
-import { Volume2, VolumeX, Moon, Sun, Share2 } from 'lucide-react';
+import { Volume2, VolumeX, Moon, Sun, Share2, Smartphone } from 'lucide-react';
 import { sounds } from '../core/soundEffects';
 
 interface NavbarProps {
@@ -7,6 +7,7 @@ interface NavbarProps {
   onToggleTheme: () => void;
   onOpenShare: () => void;
   onOpenEvents: () => void;
+  onOpenIosInstall?: () => void;
 }
 
 export const Navbar: React.FC<NavbarProps> = ({
@@ -14,6 +15,7 @@ export const Navbar: React.FC<NavbarProps> = ({
   onToggleTheme,
   onOpenShare,
   onOpenEvents,
+  onOpenIosInstall,
 }) => {
   const [soundEnabled, setSoundEnabled] = React.useState(sounds.enabled);
 
@@ -33,6 +35,18 @@ export const Navbar: React.FC<NavbarProps> = ({
       </div>
 
       <div className="navbar-actions">
+        {onOpenIosInstall && (
+          <button
+            type="button"
+            className="btn btn-secondary btn-sm"
+            onClick={onOpenIosInstall}
+            title="Установить на iPhone / iPad"
+          >
+            <Smartphone size={16} />
+            <span className="btn-share-text">iPhone</span>
+          </button>
+        )}
+
         <button
           type="button"
           className="btn btn-icon"

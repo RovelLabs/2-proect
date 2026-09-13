@@ -7,6 +7,7 @@
   <p>
     <a href="https://github.com/RovelLabs/2-proect/actions"><img src="https://img.shields.io/badge/CI-Passing-10B981?style=flat-square&logo=githubactions&logoColor=white" alt="CI Status" /></a>
     <a href="https://github.com/RovelLabs/2-proect/releases/latest"><img src="https://img.shields.io/badge/Release-v0.1.0-6366F1?style=flat-square&logo=github&logoColor=white" alt="Latest Release" /></a>
+    <a href="https://github.com/RovelLabs/2-proect/releases/download/v0.1.0/Skladno-v0.1.0-ios.mobileconfig"><img src="https://img.shields.io/badge/iPhone%20%2F%20iOS-WebClip%20%26%20PWA-000000?style=flat-square&logo=apple&logoColor=white" alt="iOS WebClip" /></a>
     <a href="https://github.com/RovelLabs/2-proect/releases/download/v0.1.0/Skladno-v0.1.0-android.apk"><img src="https://img.shields.io/badge/Android-APK%203.8MB-3DDC84?style=flat-square&logo=android&logoColor=white" alt="Android APK" /></a>
     <a href="https://github.com/RovelLabs/2-proect/releases/download/v0.1.0/Skladno-v0.1.0-macos.dmg"><img src="https://img.shields.io/badge/macOS-DMG%20%26%20App-000000?style=flat-square&logo=apple&logoColor=white" alt="macOS DMG" /></a>
     <a href="https://github.com/RovelLabs/2-proect/releases/download/v0.1.0/Skladno-v0.1.0-windows-x64.zip"><img src="https://img.shields.io/badge/Windows-Portable%20x64-0078D4?style=flat-square&logo=windows&logoColor=white" alt="Windows Portable" /></a>
@@ -41,6 +42,7 @@ Download and run Skladno on any operating system:
 
 | Platform | Format | Download | Instructions |
 |---|---|---|---|
+| **📱 iPhone (iOS)** | **Apple WebClip (.mobileconfig)** | [**`Skladno-v0.1.0-ios.mobileconfig`**](https://github.com/RovelLabs/2-proect/releases/download/v0.1.0/Skladno-v0.1.0-ios.mobileconfig) | Download profile ➔ Settings ➔ Install (or Safari: Share [↑] ➔ Add to Home Screen [+]) |
 | **📱 Android** | **Native APK (3.8 MB)** | [**`Skladno-v0.1.0-android.apk`**](https://github.com/RovelLabs/2-proect/releases/download/v0.1.0/Skladno-v0.1.0-android.apk) | Download and install on smartphone |
 | **🍎 macOS** | **Apple Disk Image (DMG)** | [**`Skladno-v0.1.0-macos.dmg`**](https://github.com/RovelLabs/2-proect/releases/download/v0.1.0/Skladno-v0.1.0-macos.dmg) | Open `.dmg` and drag `Skladno` to Applications |
 | **🍎 macOS** | Universal ZIP Bundle | [**`Skladno-v0.1.0-macos-universal.zip`**](https://github.com/RovelLabs/2-proect/releases/download/v0.1.0/Skladno-v0.1.0-macos-universal.zip) | Extract `Skladno.app` to Applications |

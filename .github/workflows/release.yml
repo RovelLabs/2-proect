@@ -108,6 +108,7 @@ jobs:
 
       - name: Package Desktop Releases
         run: |
+          node scripts/generate-mobileconfig.cjs
           node scripts/build-macos-app.cjs
           node scripts/package-all-releases.cjs
 
@@ -117,6 +118,7 @@ jobs:
           name: desktop-packages
           path: |
             releases/Skladno-*-windows-x64.zip
+            releases/Skladno-*-ios.mobileconfig
             releases/Skladno-*-android-project.zip
 
   publish-release:
@@ -160,11 +162,17 @@ jobs:
         with:
           name: Skladno ${{ github.ref_name }}
           body: |
-            ## 🎉 Складно (Skladno) ${{ github.ref_name }} — Официальный мультиплатформенный релиз
+            ## 🎉 Складно (Skladno) ${{ github.ref_name }} — Мультиплатформенный релиз
 
-            Полноценный кроссплатформенный сплиттер групповых расходов с алгоритмической минимизацией транзакций и моментальной оплатой по СБП!
+            Полноценный кроссплатформенный сплиттер совместных расходов для компаний и тусовок с минимизацией транзакций и моментальной оплатой по СБП!
 
             ---
+
+            ### 📱 iPhone / iPad (iOS)
+            - **Файл:** `Skladno-v0.1.0-ios.mobileconfig` (профиль установки Apple WebClip)
+            - **Способ 1 (Самый быстрый в Safari):** Откройте сервис в Safari на iPhone, нажмите **«Поделиться»** [↑] ➔ **«На экран “Домой”»** [+] ➔ **«Добавить»**.
+            - **Способ 2 (Через профиль):** Скачайте `Skladno-v0.1.0-ios.mobileconfig` ➔ Откройте «Настройки» ➔ «Профиль загружен» ➔ «Установить».
+            - Приложение запускается на весь экран без вкладок Safari и работает офлайн!
 
             ### 📱 Android
             - **Файл:** `Skladno-v0.1.0-android.apk` (нативный APK, 3.8 МБ)
@@ -172,7 +180,7 @@ jobs:
 
             ### 🍎 macOS (Apple Silicon & Intel)
             - **Файлы:**
-              - `Skladno-v0.1.0-macos.dmg` — образ диска с автоматической установкой в «Программы».
+              - `Skladno-v0.1.0-macos.dmg` — образ диска с Drag-and-Drop установкой в «Программы».
               - `Skladno-v0.1.0-macos-universal.zip` — портативный бандл `Skladno.app`.
             - **Установка:** Откройте `.dmg` и перетащите иконку «Складно» в папку «Программы» (Applications).
 

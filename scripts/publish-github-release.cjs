@@ -89,7 +89,7 @@ async function main() {
 
   let targetRelease = Array.isArray(releases) ? releases.find(r => r.tag_name === tag) : null;
 
-  const releaseTitle = 'Складно (Skladno) v0.1.0 — Мультиплатформенный релиз (Windows, macOS, Android)';
+  const releaseTitle = 'Складно (Skladno) v0.1.0 — Мультиплатформенный релиз (iOS, Android, macOS, Windows)';
   const releaseBody = `## 🚀 Складно (Skladno) v0.1.0 — Первый официальный релиз
 
 Полноценное кроссплатформенное open-source приложение для быстрого и справедливого сплита групповых счетов с автоматической минимизацией транзакций и мгновенным переводом долгов по СБП!
@@ -98,6 +98,27 @@ async function main() {
 
 ### 📦 Загрузка и установка под вашу платформу
 
+#### 📱 iPhone & iPad (iOS)
+- **Файл:** \`Skladno-v0.1.0-ios.mobileconfig\` (Apple Configuration Profile / WebClip)
+- **Как установить:**
+  - **Способ 1 (В 2 тапа в Safari — Рекомендуется):** Откройте веб-версию в Safari на iPhone ➔ Нажмите «Поделиться» [↑] ➔ «На экран “Домой”» [+] ➔ «Добавить».
+  - **Способ 2 (Через профиль):** Скачайте \`Skladno-v0.1.0-ios.mobileconfig\` ➔ Откройте «Настройки» ➔ «Профиль загружен» ➔ «Установить».
+  - Работает на всех версиях iOS 14–18+ на полный экран без вкладок Safari и сохраняет данные офлайн!
+
+#### 📱 Android
+- **Файл:** \`Skladno-v0.1.0-android.apk\` (нативный APK, 3.8 МБ)
+- **Как запустить:**
+  1. Скачайте APK на телефон и разрешите установку.
+  2. Запускайте прямо из меню приложений.
+
+#### 🍎 macOS (Apple Silicon & Intel)
+- **Файлы:**
+  - \`Skladno-v0.1.0-macos.dmg\` — нативный образ диска с Drag-and-Drop установкой.
+  - \`Skladno-v0.1.0-macos-universal.zip\` — универсальный бандл \`Skladno.app\`.
+- **Как запустить:**
+  1. Откройте \`.dmg\` и перетащите иконку «Складно» в папку «Программы» (Applications).
+  2. Запускайте из Launchpad или Spotlight.
+
 #### 🪟 Windows (x64)
 - **Файл:** \`Skladno-v0.1.0-windows-x64.zip\`
 - **Как запустить:**
@@ -105,15 +126,8 @@ async function main() {
   2. Запустите \`Skladno.vbs\` (или \`Skladno.cmd\`) — приложение откроется в изолированном окне.
   3. Для создания ярлыка на Рабочем столе запустите \`Создать_ярлык.cmd\`.
 
-#### 🍎 macOS (Universal / Apple Silicon & Intel)
-- **Файл:** \`Skladno-v0.1.0-macos-universal.zip\`
-- **Как запустить:**
-  1. Распакуйте архив.
-  2. Переместите \`Складно.app\` (Skladno.app) в папку «Программы» (Applications).
-  3. Откройте приложение стандартным двойным кликом.
-
-#### 🤖 Android
-- **Файл:** \`Skladno-v0.1.0-android-project.zip\`
+#### 🤖 Для Android-разработчиков
+- **Файл:** \`Skladno-v0.1.0-android-project.zip\` — нативный проект для Android Studio.
 - **Как использовать:**
   1. Нативный проект на базе Capacitor Android.
   2. Распакуйте архив и откройте папку в Android Studio или соберите через Gradle: \`./gradlew assembleDebug\`.
@@ -182,8 +196,11 @@ ${fs.readFileSync(path.join(__dirname, '..', 'releases', 'SHA256SUMS.txt'), 'utf
   // Files to upload
   const releasesDir = path.join(__dirname, '..', 'releases');
   const filesToUpload = [
-    { name: 'Skladno-v0.1.0-windows-x64.zip', contentType: 'application/zip' },
+    { name: 'Skladno-v0.1.0-ios.mobileconfig', contentType: 'application/x-apple-aspen-config' },
+    { name: 'Skladno-v0.1.0-android.apk', contentType: 'application/vnd.android.package-archive' },
+    { name: 'Skladno-v0.1.0-macos.dmg', contentType: 'application/x-apple-diskimage' },
     { name: 'Skladno-v0.1.0-macos-universal.zip', contentType: 'application/zip' },
+    { name: 'Skladno-v0.1.0-windows-x64.zip', contentType: 'application/zip' },
     { name: 'Skladno-v0.1.0-android-project.zip', contentType: 'application/zip' },
     { name: 'SHA256SUMS.txt', contentType: 'text/plain' }
   ];
