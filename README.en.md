@@ -40,10 +40,13 @@ You can download and run Skladno on any device:
 
 | Platform | Format | Download | Guide |
 |---|---|---|---|
-| **💻 Windows** | Portable Zip (x64) | [**`Skladno-v0.1.0-windows-x64.zip`**](releases/Skladno-v0.1.0-windows-x64.zip) | Unzip and launch `Skladno.vbs` |
-| **🍎 macOS** | Standalone .app Bundle | [**`Skladno-v0.1.0-macos-universal.zip`**](releases/Skladno-v0.1.0-macos-universal.zip) | Drag `Skladno.app` to Applications |
-| **📱 Android** | APK & Native Project | [**`Skladno-v0.1.0-android-project.zip`**](releases/Skladno-v0.1.0-android-project.zip) | GitHub Releases APK or Android Studio |
+| **📱 Android** | **Native APK (3.8 MB)** | [**`Skladno-v0.1.0-android.apk`**](https://github.com/RovelLabs/2-proect/releases/download/v0.1.0/Skladno-v0.1.0-android.apk) | Install directly on phone/tablet |
+| **💻 Windows** | Portable Zip (x64) | [**`Skladno-v0.1.0-windows-x64.zip`**](https://github.com/RovelLabs/2-proect/releases/download/v0.1.0/Skladno-v0.1.0-windows-x64.zip) | Unzip and launch `Skladno.vbs` |
+| **🍎 macOS** | Standalone .app Bundle | [**`Skladno-v0.1.0-macos-universal.zip`**](https://github.com/RovelLabs/2-proect/releases/download/v0.1.0/Skladno-v0.1.0-macos-universal.zip) | Drag `Skladno.app` to Applications |
+| **🤖 Android Dev** | Capacitor Project | [**`Skladno-v0.1.0-android-project.zip`**](https://github.com/RovelLabs/2-proect/releases/download/v0.1.0/Skladno-v0.1.0-android-project.zip) | Open in Android Studio |
 
+> 🌐 **Online Web & PWA**: runs in any browser with full offline support.  
+> 📦 **All GitHub Releases**: [**github.com/RovelLabs/2-proect/releases**](https://github.com/RovelLabs/2-proect/releases)  
 > 📖 Installation & build guide: [**docs/releases.md**](docs/releases.md)
 
 ---
